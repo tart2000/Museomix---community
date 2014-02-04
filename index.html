@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Project Starter">
     	<meta name="author" content="nod-A">
-        <title>Project title</title>
+        <title>Museomix Online</title>
 		<link href="css/style.css" rel="stylesheet" type="text/css" />
 		<link href="libs/dist/css/bootstrap.css" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
@@ -101,11 +101,11 @@
 	    					<h3><span class="glyphicon glyphicon-tree-conifer"></span> Unattented plots</h3>
 	    				</div>
 	    				<div class="small-container">
-		    				<div class="col-md-4 col-sm-4">
+
+		    				<div class="col-md-4 col-sm-4" data-toggle="modal" data-target="#plot-modal">
 		    					<div class="item">
-		    						<div class="cat-item-title grab"><div class="right unlock-btn hide"><button type="button" class="btn btn-warning btn-sm">Grab!</button></div><a href="#"><h3>Global</h3></a></div>
+		    						<div class="cat-item-title grab"><div class="right unlock-btn hide"><button type="button" class="btn btn-warning btn-sm">Grab!</button></div><a href="#"><h3>Funding</h3></a><h4><span class="glyphicon glyphicon-map-marker"></span>Global</h4></div>
 		  							<div class="item-content">
-		  								<h4>Funding and partnerships</h4>
 		  								<p>We need someone to help us find money good cash and maybe some crisps.<br/><a href="#">Read more →</a></p>
 		  								<hr/>
 		  								<div class="item-avatar"><a class="tooltip-img" href="#"><img class="left thumb-avatar" src="images/profile30px.jpg" alt="avatar-name" data-toggle="tooltip" title="avatar name"></a></div>
@@ -114,8 +114,31 @@
 		  						</div>
 		  					</div>
 		  					<!-- end column 1 -->
-
+		  					<div class="col-md-4 col-sm-4" data-toggle="modal" data-target="#plot-modal">
+		    					<div class="item">
+		    						<div class="cat-item-title grab"><div class="right unlock-btn hide"><button type="button" class="btn btn-warning btn-sm">Grab!</button></div><a href="#"><h3>Translation</h3></a><h4><span class="glyphicon glyphicon-map-marker"></span>Global</h4></div>
+		  							<div class="item-content">
+		  								<p>We need some help with translation. Needs someone good with both french and english to assemble a little translation team for communication.<br/><a href="#">Read more →</a></p>
+		  								<hr/>
+		  								<div class="item-avatar"><a class="tooltip-img" href="#"><img class="left thumb-avatar" src="images/profile30px.jpg" alt="avatar-name" data-toggle="tooltip" title="avatar name"></a></div>
+		    							<div class="cat-description"><p>Created by <br/>Gaspard Rouvet</p></div>  
+		  							</div>
+		  						</div>
+		  					</div>
 		  					<!-- end column 2 -->
+
+		  					<div class="col-md-4 col-sm-4" data-toggle="modal" data-target="#plot-modal">
+		    					<div class="item">
+		    						<div class="cat-item-title grab"><div class="right unlock-btn hide"><button type="button" class="btn btn-warning btn-sm">Grab!</button></div><a href="#"><h3>Museum connection</h3></a><h4><span class="glyphicon glyphicon-map-marker"></span>Rhone-Alpes</h4></div>
+		  							<div class="item-content">
+		  								<p>On cherche quelqun pour gérer la communication avec le musée au jour le jour jusqu'à l'évènement.<br/><a href="#">Read more →</a></p>
+		  								<hr/>
+		  								<div class="item-avatar"><a class="tooltip-img" href="#"><img class="left thumb-avatar" src="images/profile30px.jpg" alt="avatar-name" data-toggle="tooltip" title="avatar name"></a></div>
+		    							<div class="cat-description"><p>Created by <br/>Asper Crowfild</p></div>  
+		  							</div>
+		  						</div>
+		  					</div>
+		  					<!-- end column 3 -->
 
 		  				</div>
 
@@ -248,6 +271,36 @@
 	    	</div>
 
     	</div>
+
+    	<!-- Modals -->
+		<div class="modal fade" id="plot-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			        <h3 class="modal-title" id="myModalLabel">Funding and partnerships</h3>
+			        <h4><span class="glyphicon glyphicon-map-marker"></span>Global</h4>
+			      </div>
+			      <div class="modal-body">
+			      <p>Yeah, there would be some really awesome text here about how it helps to understand what the plot really is about so that someone can actually decide to grab it... </p>
+			      <hr/>
+			      <h4>Associated tasks</h4>
+			      <ul>
+			      	<li>Do something</li>
+			      	<li>Or something else</li>
+			      	<li>Or, like something really complicated to do etc.</li>
+			      </ul>
+			      <hr/>
+			      <div class="item-avatar"><a class="tooltip-img" href="#"><img class="left thumb-avatar" src="images/profile30px.jpg" alt="avatar-name" data-toggle="tooltip" title="avatar name"></a></div>
+			    	<div class="cat-description"><p>Created by <br/>John B Good</p></div>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-warning">Grab!</button>
+			      </div>
+		    </div>
+		  </div>
+		</div>
 
     	<script src="libs/dist/js/bootstrap.min.js"></script>
 		<script src="js/starter.js"></script>

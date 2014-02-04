@@ -175,3 +175,13 @@ hr {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+.small-container {
+	cursor: pointer;
+}
+
+.modal-header {
+	background-color: #FFEC00;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
