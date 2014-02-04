@@ -107,6 +107,10 @@ hr {
 	background-color: #FFEC00;
 }
 
+.unlock .cat-item-title {
+	background-color: #f8f8f8;
+}
+
 .item-title {
 	border-bottom: 1px solid #ddd;
 	background-color: #f8f8f8;
@@ -184,4 +188,21 @@ hr {
 	background-color: #FFEC00;
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
+}
+
+.btn-group {
+	margin-top: 20px;
+}
+
+.bb-list {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.item-bb {
+	border-bottom: 1px solid #ddd;
+}
+
+.item-bb .cat-item-title {
+	background-color: #f8f8f8;
 }
