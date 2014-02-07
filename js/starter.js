@@ -37,6 +37,21 @@ function discussion (a) {
 	document.getElementById('discussion').innerHTML = discussionX;
 };
 
+function comumunity (a) {
+	var communityX = "";
+	for (var i = 0; i <= a ; i++) {
+		communityX += "<div class='community-item col-md-3 col-sm-3'>"+
+									"<div class='com-avatar'><img src='images/profile140px.jpg'></div>"+
+									"<h4>"+loremIpsum(2)+"</h4>"+
+									"<h4>Some role</h4>"+
+									"<p>active X minutes ago</p>"+
+								"</div>";
+	}
+	document.getElementById('community-list').innerHTML = communityX;
+};
+
 discussion(10);
+
+comumunity(30);
 
 });
